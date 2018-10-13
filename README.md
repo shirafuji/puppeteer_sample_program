@@ -1,6 +1,6 @@
 # puppeteer_sample_program
 ___
-このプログラムはchromeの自動操作ができるNodeのapiである[puppeteer]("https://github.com/GoogleChrome/puppeteer")のサンプルコード。  
+このプログラムはchromeの自動操作ができるNodeのapiである[puppeteer](https://github.com/GoogleChrome/puppeteer)のサンプルコード。  
 今回はyahooの検索結果トップ５記事のurlを返すapiを作成した。
 
 ## Request example
