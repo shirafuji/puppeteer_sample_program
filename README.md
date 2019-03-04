@@ -1,7 +1,10 @@
 # puppeteer_sample_program
-___
+___  
+
 このプログラムはchromeの自動操作ができるNodeのapiである[puppeteer](https://github.com/GoogleChrome/puppeteer)のサンプルコード。  
-今回はyahooの検索結果トップ５記事のurlを返すapiを作成した。
+今回はyahooの検索結果トップ５記事のurlを返すapiを作成した。  
+`tsc`コマンドによりtsファイルをコンパイルし、  
+`node ./dist.index.js`でサーバーを起動してください。
 
 ## Request example
 `curl -XGET --globoff "localhost:3000/search?keywords[]=golang&keywords[]=study"`
